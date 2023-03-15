@@ -1,0 +1,63 @@
+:root {
+  --font-ko: "Noto Sans KR", sans-serif;
+  --font-en: "Montserrat", sans-serif;
+  --primary-blue: #216ba5;
+  --light: #f5f5f5;
+  --light-blur: #e7e7e7;
+  --light-gray: #ccc8c8;
+  --white: #fff;
+  --gray: #555;
+  --blur-dark: #0d1117;
+  --text-dark1: #222;
+  --text-dark2: #444;
+  --puple: #af23ff;
+  --light-blue: #6b95bb;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-ko);
+  background-color: var(--white);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--light);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
+  border-radius: 5px;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+li, ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--white);
+}
+
+/*# sourceMappingURL=index.c1b4d8c2.css.map */
