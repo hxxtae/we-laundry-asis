@@ -16,7 +16,7 @@
 
 * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; }
 
-body { font-family: var(--font-ko); background-color: var(--white); overflow-x: hidden; }
+body { font-family: var(--font-ko); background-color: var(--white); overflow-x: hidden; margin: 0; }
 body::-webkit-scrollbar { width: 10px; }
 body::-webkit-scrollbar-track { background-color: var(--light); border-radius: 5px; }
 body::-webkit-scrollbar-thumb { background-color: var(--gray); border-radius: 5px; }
@@ -32,5 +32,5 @@ button:not(:disabled),
 [type="button"]:not(:disabled), 
 [type="reset"]:not(:disabled), 
 [type="submit"]:not(:disabled) {
-  
+
 }
