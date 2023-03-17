@@ -12,6 +12,8 @@
   --blur-dark: #0d1117;
   --text-dark1: #222222;
   --text-dark2: #444444;
+  --puple: #af23ff;
+  --light-blue: #6b95bb;
 }
 
 * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; }

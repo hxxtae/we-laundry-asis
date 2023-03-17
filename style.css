@@ -21,7 +21,7 @@
 }
 
 .main .slider-list .slider-item {
-  
+  cursor: grab;
 }
 
 .main .slider-list .slider-item .image-wrapper {
@@ -54,6 +54,7 @@
 
 .main .thumbnail-list .thumbnail-item button {
   font-size: 1em;
+  font-family: var(--font-ko);
   color: #353535;
   background-color: transparent;
   padding: 5px 10px;
@@ -71,3 +72,29 @@
   display: block;
   border-bottom: 1px solid var(--gray);
 }
+
+.footer {
+  position: fixed;
+  bottom: 5vh;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+a.lable {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 45px;
+  margin: 0 auto;
+  color: var(--blur-dark);
+  font-weight: 400;
+}
+
+/* 
+@media only screen and (max-width: 1240px) {
+  .lable {
+    display: none;
+  }
+} */
