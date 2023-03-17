@@ -2,10 +2,12 @@
   "name": "we-laundry-asis",
   "version": "1.0.0",
   "description": "welaundry 이전 버전에 대한 미리보기 및 설명을 제공합니다.",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d .",
+    "predeploy": "npm run build",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,10 +20,13 @@
   "bugs": {
     "url": "https://github.com/hxxtae/we-laundry-asis/issues"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "parcel": "^2.8.3"
+  },
   "dependencies": {
     "gh-pages": "^5.0.0",
     "tiny-slider": "^2.9.4"
   },
-  "homepage": "https://github.com/hxxtae/we-laundry-asis#readme"
+  "homepage": "https://github.com/hxxtae/we-laundry-asis"
 }
